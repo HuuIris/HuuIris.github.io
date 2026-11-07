@@ -2,14 +2,16 @@
 layout: null
 ---
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>胡彪 | Hu Biao - AI Infra / LLM Inference Optimization</title>
+    <title>Biao Hu — AI Infra & LLM Inference Optimization</title>
+    <meta name="description" content="Biao Hu — M.S. candidate at Sun Yat-sen University. Research: AI infrastructure, LLM inference optimization, heterogeneous computing, computer vision.">
+    <meta name="author" content="Biao Hu">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -17,172 +19,250 @@ layout: null
         <header class="hero">
             <div class="hero-content">
                 <div class="avatar">
-                    <img src="/assets/img/profile.jpg" alt="胡彪 | Hu Biao">
+                    <img src="/assets/img/profile.jpg" alt="Biao Hu">
                 </div>
                 <div class="hero-text">
-                    <h1>胡彪 <span class="en-name">Hu Biao</span></h1>
-                    <p class="tagline">AI Infra / 大模型推理优化 / 计算机视觉</p>
+                    <h1>Biao Hu <span class="zh-name">胡彪</span></h1>
+                    <p class="tagline">M.S. Candidate · Sun Yat-sen University</p>
+                    <p class="research-line">AI Infra · LLM Inference Optimization · Heterogeneous Computing</p>
                     <div class="contact-row">
                         <a href="mailto:hubiao3@mail2.sysu.edu.cn"><i class="fas fa-envelope"></i> hubiao3@mail2.sysu.edu.cn</a>
                         <a href="https://github.com/HuuIris" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="/cv/"><i class="fas fa-file-alt"></i> CV</a>
                     </div>
                 </div>
             </div>
         </header>
 
-        <!-- About Section -->
+        <!-- About / Bio -->
         <section class="section" id="about">
-            <h2><i class="fas fa-user"></i> 关于我</h2>
+            <h2><i class="fas fa-user-circle"></i> About</h2>
             <p>
-                中山大学计算机科学与技术专业学术型硕士（超算中心实验室），研究方向为 AI Infra 与大模型推理优化。
-                本科毕业于华南理工大学，计算机科学与技术 &amp; 金融学双学位，GPA 3.92/4.00，双学位班专业第一。
+                I am a master's candidate in Computer Science and Technology at <strong>Sun Yat-sen University</strong>,
+                working at the <strong>National Supercomputing Center</strong>. My research focuses on
+                <em>AI infrastructure</em> and <em>large language model (LLM) inference optimization</em>,
+                with a particular interest in resource scheduling, heterogeneous computing, and efficient serving systems.
             </p>
             <p>
-                擅长 GPU/NPU 异构推理优化、多租户资源池化、模型部署加速（TensorRT / CANN / ONNX），
-                熟悉 vLLM / SGLang 推理链路及 CUDA 生态。有多段华为、钛动科技等一线企业 AI 算法实习经历。
+                Prior to my graduate studies, I obtained dual bachelor's degrees in Computer Science & Technology
+                and Finance from <strong>South China University of Technology</strong>, graduating <em>first in the dual-degree cohort</em>
+                with a GPA of 3.92/4.00.
             </p>
         </section>
 
-        <!-- Education Section -->
+        <!-- Research Interests -->
+        <section class="section" id="research">
+            <h2><i class="fas fa-flask"></i> Research Interests</h2>
+            <div class="research-grid">
+                <div class="research-item">
+                    <h3>LLM Inference & Serving</h3>
+                    <p>Multi-tenant resource pooling, KV cache management, dynamic isolation, scheduling policies for large language model serving systems (vLLM / SGLang).</p>
+                </div>
+                <div class="research-item">
+                    <h3>Heterogeneous Computing</h3>
+                    <p>Cross-platform inference optimization on GPU (CUDA / TensorRT) and NPU (CANN / ACL), operator-level profiling and acceleration.</p>
+                </div>
+                <div class="research-item">
+                    <h3>Computer Vision</h3>
+                    <p>Object detection, image segmentation, foundation model adaptation (SAM / CLIP), and deployment optimization for vision systems.</p>
+                </div>
+                <div class="research-item">
+                    <h3>Reliable AI Systems</h3>
+                    <p>Anomaly detection, encrypted traffic analysis, and risk modeling with LLMs — bridging systems research with real-world deployment.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications -->
+        <section class="section" id="publications">
+            <h2><i class="fas fa-book-open"></i> Publications & Preprints</h2>
+            <div class="pub-list">
+                <div class="pub-item">
+                    <p class="pub-title">LLM-based Risk Factor Extraction and Bayesian Network Generation for Safety Engineering</p>
+                    <p class="pub-authors"><strong>Biao Hu</strong>, et al.</p>
+                    <p class="pub-venue"><em>Reliability Engineering & System Safety</em> (SCI Q1, Top Journal) — <span class="pub-note">supporting research</span></p>
+                    <p class="pub-desc">Core algorithm development for LLM-driven extraction of risk factors from unstructured accident reports, mapping to FRAM framework and automatic Bayesian network construction for quantitative risk assessment.</p>
+                </div>
+                <div class="pub-item">
+                    <p class="pub-title">GPU/NPU Multi-Tenant LLM Inference Resource Pooling with Dynamic Isolation</p>
+                    <p class="pub-authors"><strong>Biao Hu</strong> (Lead)</p>
+                    <p class="pub-venue">Provincial Computing Grant Project — <span class="pub-status">in progress</span></p>
+                    <p class="pub-desc">Runtime-level resource virtualization for vLLM/SGLang across CUDA and ACL, enabling fine-grained (5% granularity) memory and compute partitioning with three scheduling modes.</p>
+                </div>
+            </div>
+            <p class="pub-note" style="margin-top: 12px; font-size: 0.9rem; color: #718096;">
+                <i class="fas fa-info-circle"></i> More publications coming soon.
+            </p>
+        </section>
+
+        <!-- Research & Engineering Projects -->
+        <section class="section" id="projects">
+            <h2><i class="fas fa-project-diagram"></i> Selected Research & Engineering Projects</h2>
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Multi-Tenant LLM Inference Resource Pooling & Dynamic Isolation</h3>
+                        <span class="project-tag">AI Infra</span>
+                    </div>
+                    <p class="subtitle">Provincial Computing Grant · Lead Researcher · 2025.10 — Present</p>
+                    <p>
+                        Addressing the interference problem when multiple tenants share GPU/NPU resources for LLM inference.
+                        We profile prefill (compute-bound) vs. decode (memory-bound) stages using Nsight/msprof and request-level tracing,
+                        revealing up to <strong>127% TPOT p99 degradation</strong> under long-context interference.
+                    </p>
+                    <ul>
+                        <li>Cross-runtime instrumentation via LD_PRELOAD/dlsym for both CUDA and ACL — no modification to vLLM/SGLang mainline</li>
+                        <li>Resource pooling at 5% minimum granularity; goodput and TTFT scale near-linearly with allocated share</li>
+                        <li>Three scheduling modes: strict isolation, elastic borrowing, and priority-based preemption</li>
+                        <li>Unified benchmark suite across 2/3/4/8 tenants on Qwen2/2.5/3 model families</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Operator-Level Cross-Platform Inference Optimization</h3>
+                        <span class="project-tag">Systems</span>
+                    </div>
+                    <p class="subtitle">Collaborative Research · 2025.04 — 2025.08</p>
+                    <p>
+                        Investigating hardware-software co-design for deploying SOTA object detectors (D-FINE) on heterogeneous platforms.
+                        Identified that <code>grid_sample</code> fallback on TensorRT 8.x / CANN 6.3 was the primary bottleneck.
+                    </p>
+                    <ul>
+                        <li>Reformulated deformable attention from bilinear to <strong>discrete sampling</strong> — resolved cross-platform compatibility</li>
+                        <li>Achieved <strong>~100% throughput improvement</strong> on Ascend CANN 6.3 with &lt;1% mAP loss</li>
+                        <li>Backward-compatible with CUDA/TensorRT 8.x, preserving legacy deployment (CUDA 10.1/10.2)</li>
+                        <li>Standardized 8-model repository with Docker-based reproducible training pipeline</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Statistical Randomness Testing for Encrypted Traffic Detection</h3>
+                        <span class="project-tag">Security</span>
+                    </div>
+                    <p class="subtitle">Research Project · 2026.07 — 2026.09</p>
+                    <p>
+                        Demonstrated that Shannon entropy + RNN cannot distinguish encrypted backups from naturally high-entropy data
+                        (overlapping distributions at 1e-5 granularity). Introduced <strong>NIST SP 800-22 randomization tests</strong>
+                        as discriminative features.
+                    </p>
+                    <ul>
+                        <li>Three-tier architecture: Block (8KB) → Chunk (1GB) → Replica, with 32MB sliding oversampling (30→960 samples)</li>
+                        <li>17-dimensional feature selection; Logistic Regression outperforms tree models under oversampling</li>
+                        <li><strong>AUC 0.9998, Recall 99.6%, FPR 0.0045%</strong>; F1 improved from 0.928 to 0.975</li>
+                        <li>Companion work on anomaly detection using NSGA-II multi-objective optimization: 100% detection rate, 0% false positive</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Tree Ring Segmentation via Foundation Model Adaptation</h3>
+                        <span class="project-tag">Computer Vision</span>
+                    </div>
+                    <p class="subtitle">Guangzhou Institute of Forestry · Project Lead · 2025.06 — 2025.09</p>
+                    <p>
+                        Designed a SAM3-Adapter segmentation architecture with CLIP visual-semantic guidance for
+                        high-density tree ring counting in ancient tree core images.
+                    </p>
+                    <ul>
+                        <li>Custom ONNX operator mapping + TensorRT FP16 quantization for 30:1 extreme aspect ratio images</li>
+                        <li><strong>3× throughput</strong> improvement, <strong>60% memory reduction</strong> vs. PyTorch baseline</li>
+                        <li>System accuracy &gt;95%; exhibited at the National Ancient Tree Protection Week as a flagship outcome</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Multimodal Video Understanding Data Engine</h3>
+                        <span class="project-tag">Data Engineering</span>
+                    </div>
+                    <p class="subtitle">Research Collaboration · 2026.04 — 2026.06</p>
+                    <p>
+                        Built an end-to-end video QA data pipeline for <strong>Qwen3.5-27B</strong> multimodal fine-tuning,
+                        covering 4 ad categories and 14 marketing comprehension sub-tasks.
+                    </p>
+                    <ul>
+                        <li>Dual-layer quality gating: rule-based validation + Gemini Pro LLM-as-a-Judge (auto-reject below 0.5)</li>
+                        <li>Delivered <strong>39,513 training samples</strong>; 134K API calls, 480M tokens processed</li>
+                        <li>Async pipeline with retry, checkpointing, and per-stage unit tests</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>AIGC-Based Long-Tail Defect Synthesis Pipeline</h3>
+                        <span class="project-tag">Generative AI</span>
+                    </div>
+                    <p class="subtitle">Collaborative Research · 2025.04 — 2025.08</p>
+                    <p>
+                        Addressed extreme sample scarcity in railway inspection by building a "semantic erasure + visual-guided generation"
+                        data synthesis pipeline for long-tail defect detection.
+                    </p>
+                    <ul>
+                        <li>Iterated from ControlNet to Attentive Eraser + Paint-by-Example for texture-preserving defect generation</li>
+                        <li>"Selective overfitting" training strategy: augment rare defect samples to hundreds for generation</li>
+                        <li>Recall on real test set improved from <strong>85.76% to 99.31%</strong></li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>LLM-Driven Risk Analysis for Safety Engineering</h3>
+                        <span class="project-tag">Research</span>
+                    </div>
+                    <p class="subtitle">LLM Lead · 2025.03 — 2025.04</p>
+                    <p>
+                        Multi-modal RAG architecture for automated risk factor extraction from unstructured accident reports.
+                        Extracted factors mapped to the <strong>FRAM</strong> (Functional Resonance Analysis Method) framework,
+                        with automatic <strong>Bayesian Network</strong> generation for quantitative risk assessment.
+                    </p>
+                    <ul>
+                        <li>Optimized chunking strategy for domain-specific terminology sparsity</li>
+                        <li>Core algorithms support a paper in <em>Reliability Engineering & System Safety</em> (SCI Q1)</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education -->
         <section class="section" id="education">
-            <h2><i class="fas fa-graduation-cap"></i> 教育背景</h2>
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
             <div class="timeline">
                 <div class="timeline-item">
-                    <div class="timeline-period">2025.09 — 至今</div>
+                    <div class="timeline-period">2025.09 — Present</div>
                     <div class="timeline-content">
-                        <h3>中山大学</h3>
-                        <p class="subtitle">计算机科学与技术 · 学术型硕士 | 超算中心实验室</p>
+                        <h3>Sun Yat-sen University</h3>
+                        <p class="subtitle">M.S. in Computer Science and Technology</p>
+                        <p>National Supercomputing Center · Research: AI Infra & LLM inference optimization</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-period">2021.09 — 2025.06</div>
                     <div class="timeline-content">
-                        <h3>华南理工大学</h3>
-                        <p class="subtitle">计算机科学与技术 &amp; 金融学 · 双学士</p>
-                        <p>GPA: 3.92/4.00 | 双学位班专业第一 | CET-4: 610 | CET-6: 497</p>
+                        <h3>South China University of Technology</h3>
+                        <p class="subtitle">B.Eng. in Computer Science & Technology + B.Fin. in Finance (Dual Degree)</p>
+                        <p>GPA: 3.92/4.00 · <strong>First in dual-degree cohort</strong></p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Experience Section -->
-        <section class="section" id="experience">
-            <h2><i class="fas fa-briefcase"></i> 工作与实习经历</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-period">2026.07 — 2026.09</div>
-                    <div class="timeline-content">
-                        <h3>华为技术有限公司 · ICT BG 数据保护基础软件开发部</h3>
-                        <p class="subtitle">AI 算法实习生 | 优秀实习生</p>
-                        <ul>
-                            <li>勒索加密检测：引入 NIST 随机性检验，设计三级检测架构，AUC 0.9998，Recall 99.6%，FPR 0.0045%，方案转产并沉淀专利交底书</li>
-                            <li>异常检测优化：以 NSGA-II 多目标优化替代坐标下降，测试集检测率 100%，Generic 误报 0%</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-period">2026.04 — 2026.06</div>
-                    <div class="timeline-content">
-                        <h3>钛动科技股份有限公司</h3>
-                        <p class="subtitle">算法实习生</p>
-                        <ul>
-                            <li>面向 Qwen3.5-27B 多模态微调搭建视频 QA 数据引擎，交付 39,513 条训练样本</li>
-                            <li>累计处理约 13.4 万次请求、4.80 亿 Token</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-period">2025.04 — 2025.08</div>
-                    <div class="timeline-content">
-                        <h3>华为技术有限公司 · ICT BG 云计算</h3>
-                        <p class="subtitle">AI 算法实习生（多模态感知与生成方向）</p>
-                        <ul>
-                            <li>主导 D-FINE 异构推理适配，昇腾吞吐提升约 100%，mAP 损失 &lt;1%</li>
-                            <li>开发长尾数据合成管线，召回率由 85.76% 提升至 99.31%</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section class="section" id="projects">
-            <h2><i class="fas fa-project-diagram"></i> 核心项目</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>GPU/NPU 多租户 LLM 推理资源池化系统</h3>
-                    <p class="subtitle">省算力课题 · 项目负责人 | 2025.10 — 至今</p>
-                    <p>面向 vLLM/SGLang 的底层推理插件，实现最小 5% 粒度的显存/计算资源池化切分，支持严格模式、弹性借用和抢占模式三种运行模式。跨硬件 Runtime 接入 CUDA 与 ACL，统一资源采集与策略接口。</p>
-                </div>
-                <div class="project-card">
-                    <h3>古树盘年轮识别系统</h3>
-                    <p class="subtitle">广州市园科院 · 项目负责人 | 2025.06 — 2025.09</p>
-                    <p>SAM3-Adapter 分割架构 + CLIP 语义引导，TensorRT FP16 部署。吞吐提升 3 倍、显存下降 60%。系统实测准确率 &gt;95%，在"全国古树名木保护宣传周"官方活动展出。</p>
-                </div>
-                <div class="project-card">
-                    <h3>安全工程领域事故分析系统</h3>
-                    <p class="subtitle">LLM 负责人 | 2025.03 — 2025.04</p>
-                    <p>多模态 RAG 架构，从非结构化事故文本提取风险因子，映射至 FRAM 框架，自动生成贝叶斯网络用于定量风险评估。核心算法支撑 SCI 一区 Top 期刊论文。</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section class="section" id="skills">
-            <h2><i class="fas fa-tools"></i> 技术能力</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>AI Infra 工程</h3>
-                    <div class="tags">
-                        <span class="tag">vLLM</span>
-                        <span class="tag">SGLang</span>
-                        <span class="tag">CUDA</span>
-                        <span class="tag">TensorRT</span>
-                        <span class="tag">CANN/ACL</span>
-                        <span class="tag">Nsight</span>
-                        <span class="tag">msprof</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>AI 工具</h3>
-                    <div class="tags">
-                        <span class="tag">Claude Code</span>
-                        <span class="tag">Codex</span>
-                        <span class="tag">Cursor</span>
-                        <span class="tag">Trae</span>
-                        <span class="tag">GPT</span>
-                        <span class="tag">Claude</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>算法与框架</h3>
-                    <div class="tags">
-                        <span class="tag">PyTorch</span>
-                        <span class="tag">ONNX</span>
-                        <span class="tag">计算机视觉</span>
-                        <span class="tag">多模态</span>
-                        <span class="tag">LLM</span>
-                        <span class="tag">Docker</span>
-                        <span class="tag">K8s</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Awards Section -->
-        <section class="section" id="awards">
-            <h2><i class="fas fa-trophy"></i> 竞赛与荣誉</h2>
+        <!-- Honors -->
+        <section class="section" id="honors">
+            <h2><i class="fas fa-award"></i> Honors & Awards</h2>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <h3>ASC2025 世界大学生超级计算机竞赛 · 二等奖</h3>
-                        <p>负责 AlphaFold3 推理加速、CPU 版本改写及 mRNA 位点检测工作流并行优化。</p>
+                        <h3>ASC 2025 · Second Prize</h3>
+                        <p>World-wide University Supercomputing Competition. Led AlphaFold3 inference acceleration (CPU rewrite) and mRNA site detection workflow parallelization.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <h3>其他荣誉</h3>
-                        <p>国家励志奖学金 · 校级奖学金 · 三好学生</p>
+                        <h3>National Encouragement Scholarship · University Scholarship · Merit Student</h3>
                     </div>
                 </div>
             </div>
@@ -190,7 +270,7 @@ layout: null
 
         <!-- Footer -->
         <footer class="footer">
-            <p>&copy; 2026 胡彪 | Hu Biao. Last updated: 2026-11-07</p>
+            <p>&copy; 2026 Biao Hu. Last updated: 2026-11-07</p>
         </footer>
     </div>
 </body>

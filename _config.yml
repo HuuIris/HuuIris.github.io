@@ -1,7 +1,7 @@
-# Personal Website - 胡彪 (Hu Biao)
-title: 胡彪 | Hu Biao
-description: AI Infra / LLM Inference Optimization / Computer Vision
-author: 胡彪
+# Personal Website — Biao Hu
+title: Biao Hu
+description: M.S. candidate at Sun Yat-sen University. Research: AI Infrastructure, LLM Inference Optimization, Heterogeneous Computing.
+author: Biao Hu
 email: hubiao3@mail2.sysu.edu.cn
 url: "https://HuuIris.github.io"
 baseurl: ""
@@ -12,8 +12,6 @@ theme: minima
 
 # Social links
 github: HuuIris
-linkedin: # optional
-twitter: # optional
 
 # Additional
 show_excerpts: true
@@ -22,4 +20,4 @@ plugins:
   - jekyll-seo-tag
 
 # Language
-lang: zh-CN
+lang: en

@@ -1,24 +1,27 @@
 ---
 layout: page
-title: 关于我
+title: About — Biao Hu
 permalink: /about/
 ---
 
-## 关于我
+## About Me
 
-我是胡彪，中山大学计算机科学与技术专业学术型硕士，就读于超算中心实验室，研究方向为 **AI Infra 与大模型推理优化**。
+I am a master's candidate in Computer Science and Technology at **Sun Yat-sen University**, working at the National Supercomputing Center. My research sits at the intersection of **AI infrastructure** and **systems for large language models**.
 
-本科毕业于华南理工大学，计算机科学与技术 & 金融学双学位，GPA 3.92/4.00，双学位班专业第一。
+I am particularly interested in understanding how to make LLM serving systems more efficient, fair, and robust when deployed at scale — from operator-level optimizations on heterogeneous hardware to multi-tenant resource scheduling.
 
-## 研究方向
+## Research Interests
 
-- **大模型推理优化：** GPU/NPU 多租户资源池化、KV Cache 管理、显存带宽优化
-- **异构计算：** CUDA / TensorRT / CANN 部署与性能调优
-- **计算机视觉：** 目标检测、图像分割、多模态感知
-- **AI 系统工程：** vLLM / SGLang 推理链路、Docker / K8s 部署
+- **LLM Inference & Serving** — multi-tenant resource pooling, KV cache management, scheduling policies, dynamic isolation
+- **Heterogeneous Computing** — cross-platform inference optimization (CUDA / TensorRT / CANN / ACL), operator profiling and acceleration
+- **Computer Vision** — object detection, image segmentation, foundation model adaptation (SAM / CLIP), deployment optimization
+- **Reliable AI Systems** — anomaly detection, encrypted traffic analysis, LLM-driven risk modeling
 
-## 联系方式
+## Background
 
-- **邮箱：** [hubiao3@mail2.sysu.edu.cn](mailto:hubiao3@mail2.sysu.edu.cn)
-- **GitHub：** [github.com/HuuIris](https://github.com/HuuIris)
-- **电话：** 188-7064-8130
+Before joining SYSU, I obtained dual bachelor's degrees in Computer Science & Technology and Finance from **South China University of Technology**, graduating first in the dual-degree cohort (GPA 3.92/4.00). I have led and contributed to several collaborative research projects spanning AI infrastructure, computer vision, and reliable AI systems.
+
+## Contact
+
+- **Email:** [hubiao3@mail2.sysu.edu.cn](mailto:hubiao3@mail2.sysu.edu.cn)
+- **GitHub:** [github.com/HuuIris](https://github.com/HuuIris)
