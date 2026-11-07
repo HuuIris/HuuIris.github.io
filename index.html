@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>胡彪 | Hu Biao - AI Infra / LLM Inference Optimization</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-content">
+                <div class="avatar">
+                    <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="胡彪 | Hu Biao">
+                </div>
+                <div class="hero-text">
+                    <h1>胡彪 <span class="en-name">Hu Biao</span></h1>
+                    <p class="tagline">AI Infra / 大模型推理优化 / 计算机视觉</p>
+                    <div class="contact-row">
+                        <a href="mailto:hubiao3@mail2.sysu.edu.cn"><i class="fas fa-envelope"></i> hubiao3@mail2.sysu.edu.cn</a>
+                        <a href="https://github.com/HuuIris" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <h2><i class="fas fa-user"></i> 关于我</h2>
+            <p>
+                中山大学计算机科学与技术专业学术型硕士（超算中心实验室），研究方向为 AI Infra 与大模型推理优化。
+                本科毕业于华南理工大学，计算机科学与技术 &amp; 金融学双学位，GPA 3.92/4.00，双学位班专业第一。
+            </p>
+            <p>
+                擅长 GPU/NPU 异构推理优化、多租户资源池化、模型部署加速（TensorRT / CANN / ONNX），
+                熟悉 vLLM / SGLang 推理链路及 CUDA 生态。有多段华为、钛动科技等一线企业 AI 算法实习经历。
+            </p>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section" id="education">
+            <h2><i class="fas fa-graduation-cap"></i> 教育背景</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-period">2025.09 — 至今</div>
+                    <div class="timeline-content">
+                        <h3>中山大学</h3>
+                        <p class="subtitle">计算机科学与技术 · 学术型硕士 | 超算中心实验室</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-period">2021.09 — 2025.06</div>
+                    <div class="timeline-content">
+                        <h3>华南理工大学</h3>
+                        <p class="subtitle">计算机科学与技术 &amp; 金融学 · 双学士</p>
+                        <p>GPA: 3.92/4.00 | 双学位班专业第一 | CET-4: 610 | CET-6: 497</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section" id="experience">
+            <h2><i class="fas fa-briefcase"></i> 工作与实习经历</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-period">2026.07 — 2026.09</div>
+                    <div class="timeline-content">
+                        <h3>华为技术有限公司 · ICT BG 数据保护基础软件开发部</h3>
+                        <p class="subtitle">AI 算法实习生 | 优秀实习生</p>
+                        <ul>
+                            <li>勒索加密检测：引入 NIST 随机性检验，设计三级检测架构，AUC 0.9998，Recall 99.6%，FPR 0.0045%，方案转产并沉淀专利交底书</li>
+                            <li>异常检测优化：以 NSGA-II 多目标优化替代坐标下降，测试集检测率 100%，Generic 误报 0%</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-period">2026.04 — 2026.06</div>
+                    <div class="timeline-content">
+                        <h3>钛动科技股份有限公司</h3>
+                        <p class="subtitle">算法实习生</p>
+                        <ul>
+                            <li>面向 Qwen3.5-27B 多模态微调搭建视频 QA 数据引擎，交付 39,513 条训练样本</li>
+                            <li>累计处理约 13.4 万次请求、4.80 亿 Token</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-period">2025.04 — 2025.08</div>
+                    <div class="timeline-content">
+                        <h3>华为技术有限公司 · ICT BG 云计算</h3>
+                        <p class="subtitle">AI 算法实习生（多模态感知与生成方向）</p>
+                        <ul>
+                            <li>主导 D-FINE 异构推理适配，昇腾吞吐提升约 100%，mAP 损失 &lt;1%</li>
+                            <li>开发长尾数据合成管线，召回率由 85.76% 提升至 99.31%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <h2><i class="fas fa-project-diagram"></i> 核心项目</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>GPU/NPU 多租户 LLM 推理资源池化系统</h3>
+                    <p class="subtitle">省算力课题 · 项目负责人 | 2025.10 — 至今</p>
+                    <p>面向 vLLM/SGLang 的底层推理插件，实现最小 5% 粒度的显存/计算资源池化切分，支持严格模式、弹性借用和抢占模式三种运行模式。跨硬件 Runtime 接入 CUDA 与 ACL，统一资源采集与策略接口。</p>
+                </div>
+                <div class="project-card">
+                    <h3>古树盘年轮识别系统</h3>
+                    <p class="subtitle">广州市园科院 · 项目负责人 | 2025.06 — 2025.09</p>
+                    <p>SAM3-Adapter 分割架构 + CLIP 语义引导，TensorRT FP16 部署。吞吐提升 3 倍、显存下降 60%。系统实测准确率 &gt;95%，在"全国古树名木保护宣传周"官方活动展出。</p>
+                </div>
+                <div class="project-card">
+                    <h3>安全工程领域事故分析系统</h3>
+                    <p class="subtitle">LLM 负责人 | 2025.03 — 2025.04</p>
+                    <p>多模态 RAG 架构，从非结构化事故文本提取风险因子，映射至 FRAM 框架，自动生成贝叶斯网络用于定量风险评估。核心算法支撑 SCI 一区 Top 期刊论文。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <h2><i class="fas fa-tools"></i> 技术能力</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>AI Infra 工程</h3>
+                    <div class="tags">
+                        <span class="tag">vLLM</span>
+                        <span class="tag">SGLang</span>
+                        <span class="tag">CUDA</span>
+                        <span class="tag">TensorRT</span>
+                        <span class="tag">CANN/ACL</span>
+                        <span class="tag">Nsight</span>
+                        <span class="tag">msprof</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI 工具</h3>
+                    <div class="tags">
+                        <span class="tag">Claude Code</span>
+                        <span class="tag">Codex</span>
+                        <span class="tag">Cursor</span>
+                        <span class="tag">Trae</span>
+                        <span class="tag">GPT</span>
+                        <span class="tag">Claude</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>算法与框架</h3>
+                    <div class="tags">
+                        <span class="tag">PyTorch</span>
+                        <span class="tag">ONNX</span>
+                        <span class="tag">计算机视觉</span>
+                        <span class="tag">多模态</span>
+                        <span class="tag">LLM</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">K8s</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards Section -->
+        <section class="section" id="awards">
+            <h2><i class="fas fa-trophy"></i> 竞赛与荣誉</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>ASC2025 世界大学生超级计算机竞赛 · 二等奖</h3>
+                        <p>负责 AlphaFold3 推理加速、CPU 版本改写及 mRNA 位点检测工作流并行优化。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>其他荣誉</h3>
+                        <p>国家励志奖学金 · 校级奖学金 · 三好学生</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2026 胡彪 | Hu Biao. Last updated: {{ site.time | date: "%Y-%m-%d" }}</p>
+        </footer>
+    </div>
+</body>
+</html>

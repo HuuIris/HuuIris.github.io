@@ -1,0 +1,25 @@
+# Personal Website - 胡彪 (Hu Biao)
+title: 胡彪 | Hu Biao
+description: AI Infra / LLM Inference Optimization / Computer Vision
+author: 胡彪
+email: hubiao3@mail2.sysu.edu.cn
+url: "https://HuuIris.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Social links
+github: HuuIris
+linkedin: # optional
+twitter: # optional
+
+# Additional
+show_excerpts: true
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Language
+lang: zh-CN
