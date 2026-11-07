@@ -1,4 +1,3 @@
-# Personal Website — Biao Hu
 title: Biao Hu
 description: M.S. candidate at Sun Yat-sen University. Research: AI Infrastructure, LLM Inference Optimization, Heterogeneous Computing.
 author: Biao Hu
@@ -6,18 +5,8 @@ email: hubiao3@mail2.sysu.edu.cn
 url: "https://HuuIris.github.io"
 baseurl: ""
 
-# Build settings
 markdown: kramdown
-theme: minima
 
-# Social links
 github: HuuIris
 
-# Additional
-show_excerpts: true
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Language
 lang: en
